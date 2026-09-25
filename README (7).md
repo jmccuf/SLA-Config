@@ -9,8 +9,7 @@ Configuring a help desk so requests reach the right team, agents have appropriat
 [My Cybersecurity Portfolio](https://github.com/jmccuf) · [Project Repository](https://github.com/jmccuf/SLA-Config) · [Ticket Lifecycle Lab](https://github.com/jmccuf/ticket-lifecycle)
 
 </div>
-
-![Illustration of help topic routing, agent permissions, SLA plans, and validation](./configuration-flow.svg)
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 
 > **Scope and evidence:** This project documents an osTicket lab. The original screenshots show role names, SLA grace periods, and help-topic configuration. They do not show individual permission selections, effective agent access, or successful routing and overdue tests. The validation steps below are recommended follow-up exercises, not completed results.
 
@@ -49,7 +48,7 @@ Navigation and available options can vary by osTicket version. Verify labels in 
 
 ## 1. Configure Agent Roles
 
-![Original osTicket Roles screen listing five active roles](./roles.png)
+![image](https://github.com/justinmccuff/post-install-config/assets/143865133/71635828-8c61-48ed-93e4-c2d2355d3c58)
 
 *Original lab evidence: All Access, Expanded Access, Limited Access, Supreme Admin, and View only are listed as active roles. The screenshot does not expose their individual permissions or assignments.*
 
@@ -82,7 +81,8 @@ The table below is a design proposal, not a record of the permissions in the scr
 
 ## 2. Configure Service-Level Agreement Plans
 
-![Original osTicket SLA list showing Default SLA and Sev-A, Sev-B, and Sev-C grace periods](./sla-plans.png)
+![image](https://github.com/justinmccuff/post-install-config/assets/143865133/41b49b39-f554-44d1-b99a-9290eee9e5b1)
+
 
 *Original lab evidence: the SLA list shows active plans and grace periods. It does not show schedule details, notification behavior, or which tickets received each plan.*
 
@@ -118,7 +118,8 @@ These are **lab configuration values**, not universal severity standards. A plan
 
 ## 3. Configure Help Topics & Routing
 
-![Original osTicket Help Topics list showing category, public visibility, priority, and department](./help-topics.png)
+![image](https://github.com/justinmccuff/post-install-config/assets/143865133/5cde95c8-5a4b-47ca-8404-98d5c3242580)
+
 
 *Original lab evidence: active public help topics with priority and department values. This screen does not prove that submitted tickets followed these routes.*
 
